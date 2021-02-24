@@ -11,6 +11,7 @@ public class DeleteData extends BaseClass {
     @Test
     void deleteUser() {
         JSONObject jsonObject = new JSONObject();
+
         httpRequest.header("content-Type", "application/json");
         httpRequest.body(jsonObject.toString());
 
